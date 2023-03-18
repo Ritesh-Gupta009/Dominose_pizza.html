@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* ......navigation start..... */
+
+.nav {
+    height: 70px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.nav .a {
+    height: 70px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.nav .b {
+    height: 70px;
+    width: 60%;
+    /* border: 1px solid red; */
+}
+
+.nav .b ul {
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    line-height: 70px;
+}
+
+.nav .b ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.nav .b ul li a {
+    text-decoration: none;
+    font: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav .c {
+    height: 70px;
+    width: 20%;
+    /* border: 1px solid red; */
+}
+
+.nav .c button {
+    height: 50px;
+    width: 150px;
+    background: #f3223B;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 50px;
+    color: white;
+}
+
+.nav .c button {
+    cursor: pointer;
+}
+
+/* .........navigation end..... */
+
+/* .......Content start..... */
+.content
+{
+    height: 400px;
+    width: 100%;
+    background :#1a60a3;
+    display: flex;
+}
+
+.content .box1
+{
+    height: 400px;
+    width: 40%;
+    background: #1a60a3;
+}
+.content .box1 .sq
+{
+    height:300px;
+    width: 80%;
+    /* background: lightcoral; */
+    margin: 80px 60px;
+}
+.content .box1 .sq .xa
+{
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid; */
+    padding: 10px;
+}
+.content .box1 .sq .xa h1
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.content .box1 .sq .xa p
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* color: #1a60a3; */
+    font-size: 25px;
+    color: yellow;
+}
+.content .box1 .sq .xb
+{
+    height: 75px;
+    width: 100%;
+    /* border: 1px solid; */
+    padding:;
+}
+.content .box1 .sq .xb button
+{
+    height: 60px;
+    width: 90%;
+    background: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin: 10px 10px; 
+    border: none;
+    
+}
+.content .box1 .sq .zz
+{   
+    height: 140px;
+    width: 100%;
+    /* border: 1px solid; */
+}
+
+.content2 .box2
+{
+    height: 400px; 
+    width: 100%;
+    background: #1a60a3; 
+}
+
+/* ..........content end...... */
+
+/* .....footer start...... */
+
+.foo
+{
+    height: 400px;
+    width: 90%;
+    /* background: yellow; */
+    margin: 10px auto;
+   /* padding: 5px; */
+   
+}
+.hem
+{
+   height: 50px;
+    width: 100%;
+    /* background: grey; */
+    font-size: 35px;
+    padding-left: 10px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.moo
+{
+    /* height:350px; */
+    width: 100%;
+    /* background: #f3223B; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    /* border: dotted ; */
+}
+ 
+.dew
+{
+height: 350px;
+width: 24%;
+border: 3px dotted;
+margin-right: 10px;
+
+}
+
+.dew .book
+{
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.dew .book img
+{
+    height:80%;
+    width: 20%;
+    /* margin-left:20px; */
+
+}
+
+.dew .mn
+{
+    height: 50px;
+    width: 100%;
+    /* background: blue; */
+    text-align: center;
+    line-height: 50px;
+}
+.dew .ex
+{
+    height: 100px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+    /* background: lightgreen; */
+    text-align: center;
+    align-items: center;
+    display: flex;
+
+    
+}
+
+.dew .ds
+{
+    height: 50px;
+    width: 100%;
+    /* background:lawngreen; */
+    text-align: center;
+    line-height:50px;
+    color: red;
+    border-top: 2px dotted black;
+}
+
+/* .....footer end..... */
+
+@media(max-width:1200px)
+{
+   .dew{
+    width: 25%;      
+   }
+}
+
+@media(max-width:800px)
+{
+   .dew{
+    width: 50%;      
+   }
+}
+
+@media(max-width:600px)
+{
+   .dew{
+    width: 100%;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
